@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap");
 .l-popular-products {
-    .container-fluid {
-        padding: 4rem;
+  .container-fluid {
+    padding: 4rem;
+    h1 {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 108%;
+      color: rgba(0, 0, 0, 0.6);
     }
+    .product-list {
+      width: 100%;
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      &__item {
+        width: 20%;
+        margin: 2rem 0 0 0;
+        padding: 0 1rem;
+      }
+    }
+  }
 }

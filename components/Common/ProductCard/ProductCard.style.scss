@@ -1,9 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap");
 .c-co-product-card {
+  font-family: "Montserrat";
+  width: 100%;
   .product-card {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: max-content;
-    border: 1px solid;
     background-color: white;
+    padding: 1rem;
+
+    &__fav {
+      text-align: right;
+      img {
+        padding: 10px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.05);
+      }
+    }
+
+    &__img {
+      text-align: center;
+    }
+
+    &__owner {
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      span {
+        background: rgba(217, 217, 217, 0.3);
+        padding: 0.2rem 0.8rem;
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+      }
+    }
+
+    &__title {
+      padding: 8px 0;
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 25px;
+      }
+    }
+
+    &__statistics {
+      display: flex;
+      padding: 0 0 8px 0;
+      align-items: flex-start;
+      font-weight: 500;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.6);
+
+      img {
+        margin-right: 10px;
+        height: 18px;
+        width: 18px;
+      }
+
+      &-rating {
+        margin-right: 10px;
+      }
+    }
+
+    &__shipping {
+      padding: 0 0 8px 0;
+      &-owner {
+        font-weight: 500;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      &-status {
+        position: relative;
+        margin-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 0.5rem;
+
+        background: #dce6ff;
+        border-radius: 1px;
+
+        img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          transform: translate(-50%, 0);
+        }
+
+        span {
+          font-weight: 500;
+          font-size: 12px;
+          color: #4f67cf;
+        }
+      }
+    }
+
+    &__footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-weight: 600;
+        font-size: 21px;
+        color: #cc4400;
+      }
+
+      button {
+        position: relative;
+        border: none;
+        padding: 10px 16px;
+        background: #cc4400;
+        // overflow: hidden;
+
+        span {
+          font-size: 20px;
+          line-height: 16px;
+          color: white;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          right: -5px;
+          top: -5px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(45deg);
+          background-color: white;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: -5px;
+          bottom: -5px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(45deg);
+          background-color: white;
+        }
+      }
+    }
   }
 }

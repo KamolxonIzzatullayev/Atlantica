@@ -15,18 +15,14 @@
 
         <div class="search-actions">
           <ul class="search-actions__list d-flex">
-            <li class="search-actions__list-item">
-              <img src="../../../assets/icons/login.svg" alt="" />
-              <p>Кабинет</p>
-            </li>
-            <li class="search-actions__list-item">
+            <!-- <li class="search-actions__list-item">
               <img src="../../../assets/icons/currency.svg" alt="" />
               <p>Валюта: USD</p>
-            </li>
-            <li class="search-actions__list-item">
+            </li> -->
+            <!-- <li class="search-actions__list-item">
               <img src="../../../assets/icons/applications.svg" alt="" />
               <p>Запросы</p>
-            </li>
+            </li> -->
             <li class="search-actions__list-item">
               <img src="../../../assets/icons/favourite.svg" alt="" />
               <p>Избранное</p>
@@ -34,6 +30,20 @@
             <li class="search-actions__list-item">
               <img src="../../../assets/icons/cart.svg" alt="" />
               <p>Корзина</p>
+            </li>
+            <li class="search-actions__list-item dropdown">
+              <div
+                dropdown-toggle
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="../../../assets/icons/login.svg" alt="" />
+                <p>Кабинет</p>
+              </div>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -46,15 +56,15 @@
           <li class="filter-list__item catalogue">
             <img src="../../../assets/icons/catalogue.svg" alt="" /> Каталог
           </li>
-          <li class="filter-list__item">Товары на складе</li>
-          <li class="filter-list__item">Для покупателя</li>
-          <li class="filter-list__item">Поиск решений</li>
+          <li class="filter-list__item">Производители</li>
           <li class="filter-list__item">Поставщикам</li>
-          <li class="filter-list__item">Помощь</li>
+          <li class="filter-list__item">Консультанты</li>
+          <li class="filter-list__item">Логистика</li>
+          <li class="filter-list__item">Услуги</li>
         </ul>
 
         <p class="filter-shipping">
-          Доставка в: <img src="../../../assets/icons/uzb_flag.svg" alt="" />
+          <span class="mr-3">Русский</span>  Валюта: USD
         </p>
       </nav>
     </div>

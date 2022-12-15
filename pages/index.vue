@@ -1,14 +1,14 @@
 <template>
   <div class="main">
-    <MainPageHeader></MainPageHeader>
+    <!-- <MainPageHeader></MainPageHeader> -->
 
     <MainPageSearchBar></MainPageSearchBar>
 
     <EntertainmentBanner></EntertainmentBanner>
 
-    <!-- <PopularProducts></PopularProducts> -->
+    <PopularProducts></PopularProducts>
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="h2">Хиты продаж</div>
       <ul class="list things__list list-unstyled d-flex gap-4">
         <li class="item thing__item">
@@ -508,7 +508,7 @@
         </li>
       </ul>
 
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -516,12 +516,13 @@
 import MainPageHeader from "../components/Common/MainPageHeader/MainPageHeader.vue";
 import MainPageSearchBar from "../components/Common/MainPageSearchBar/MainPageSearchBar.vue";
 import EntertainmentBanner from "../components/Custom/EntertainmentBanner/EntertainmentBanner.vue";
-// import PopularProducts from "../Layouts/PopularProducts/PopularProducts.vue";
+import PopularProducts from "../Layouts/PopularProducts/PopularProducts.vue";
 export default {
   components: {
     MainPageHeader,
     MainPageSearchBar,
     EntertainmentBanner,
+    PopularProducts
   },
   name: "IndexPage",
 };
