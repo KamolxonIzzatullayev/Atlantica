@@ -51,9 +51,6 @@ export default {};
 .c-co-main-header {
   background: #232f3f;
   border-bottom: 1px solid rgba(251, 251, 251, 0.2);
-  .container-fluid {
-    padding: 0 4rem;
-  }
   .navbar {
     &-users__list {
       list-style: none;

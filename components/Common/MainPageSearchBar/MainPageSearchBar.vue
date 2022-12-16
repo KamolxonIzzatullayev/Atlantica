@@ -37,12 +37,23 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src="../../../assets/icons/login.svg" alt="" />
+                <img src="~/assets/icons/login.svg" alt="" />
                 <p>Кабинет</p>
               </div>
 
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <p>
+                    Войдите, чтобы делать покупки, отслеживать заказы и
+                    пользоваться персональными скидками и баллами.
+                  </p>
+                </li>
+                <li><a class="dropdown-item active" href="#">Войти</a></li>
+                <li>
+                  <a class="dropdown-item not-active" href="#"
+                    >Зарегистрироваться</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -64,7 +75,7 @@
         </ul>
 
         <p class="filter-shipping">
-          <span class="mr-3">Русский</span>  Валюта: USD
+          <span class="mr-3">Русский</span> Валюта: USD
         </p>
       </nav>
     </div>

@@ -1,0 +1,27 @@
+// Auth page
+
+.p-login {
+  min-height: 100vh;
+  background: #232f3f;
+  padding: 2rem 0 0 0;
+}
+
+.login {
+  .container-fluid {
+    height: 100%;
+  }
+  &-body {
+    min-height: calc(100vh - 77px);
+    &__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__back {
+      background: url("~/assets/images/auth/auth-login.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

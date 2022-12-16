@@ -53,6 +53,42 @@
             margin-left: 1.5rem;
             text-align: center;
 
+            ul {
+              padding: 10px;
+              min-width: 15rem;
+              left: -150%;
+
+              li {
+                a {
+                  padding-top: 0.5rem;
+                  padding-bottom: 0.5rem;
+                  text-align: center;
+                  margin-top: 0.5rem;
+                  border-radius: 2px;
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 14px;
+
+                  &.active {
+                    background: #cc4400;
+                    color: #fbfbfb;
+                  }
+
+                  &.not-active {
+                    background: rgba(204, 68, 0, 0.2);
+                    color: #cc4400;
+                  }
+                }
+
+                p {
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: rgba(0, 0, 0, 0.6);
+                }
+              }
+            }
+
             img {
               width: 30px;
             }

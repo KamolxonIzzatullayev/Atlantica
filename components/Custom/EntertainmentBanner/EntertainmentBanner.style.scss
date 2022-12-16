@@ -1,22 +1,18 @@
 .c-cu-banner {
-    padding: 3rem 0;
-    .container-fluid {
-        padding: 0 4rem;
-
-        .big {
-            img {
-                width: 100%;
-            }
-        }
-
-        .small {
-            img {
-                width: 100%;
-
-                &:first-child {
-                    margin-bottom: 1rem;
-                }
-            }
-        }
+  padding: 3rem 0;
+  .big {
+    img {
+      width: 100%;
     }
+  }
+
+  .small {
+    img {
+      width: 100%;
+
+      &:first-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }
